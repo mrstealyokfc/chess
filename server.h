@@ -9,6 +9,8 @@
 #define __SERVER_H
 
 
-int start_server(int port);
+int start_server_ipv4(int port);
+
+int start_server_ipv6(int port);
 
 #endif 
